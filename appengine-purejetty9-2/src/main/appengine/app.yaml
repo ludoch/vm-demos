@@ -1,0 +1,8 @@
+runtime: java
+env: 2
+runtime_config:
+  jdk: openjdk8
+  server: jetty9
+
+
+

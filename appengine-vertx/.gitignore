@@ -10,9 +10,4 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/jettyMavenHelloWarApp/target/
-/protocnewsample/target/
-/purejetty9webapp/target/
-/appengine-purejetty9/target/
-/appengine-purejetty9-2/target/
-/grpcjavasample/target/
+/target/
