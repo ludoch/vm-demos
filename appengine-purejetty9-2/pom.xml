@@ -15,7 +15,7 @@
     <appengine.version>1.9.28</appengine.version>
     <compileSource>1.8</compileSource>
 
-    <gcloud.plugin.version>2.0.9.84.v20151031</gcloud.plugin.version>
+    <gcloud.plugin.version>2.0.9.85.v20151104</gcloud.plugin.version>
 
     <requiredMavenVersion>3.3.3</requiredMavenVersion>
 

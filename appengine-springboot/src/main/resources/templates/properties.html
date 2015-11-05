@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Listing all system properties of the JVM:</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+
+    <p th:each="entry: ${env}">
+      <span th:text="${entry.key} + '=' + ${entry.value}"></span>
+    </p>
+    <p th:each="entry: ${properties}">
+      <span th:text="${entry.key} + '=' + ${entry.value}"></span>
+    </p>
+  </body>
+</html>
