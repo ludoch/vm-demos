@@ -8,6 +8,7 @@
     <title>JSP Page</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>Hello World from the latest Jetty9 Servlet 3.1 container running on App Engine.</h1>
+    <p><a href="/SystemViewer">JVM properties</a></p>
   </body>
 </html>

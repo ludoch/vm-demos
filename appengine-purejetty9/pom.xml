@@ -25,7 +25,7 @@
 
   <groupId>com.google.appengine.demos</groupId>
   <artifactId>purejetty9webapp</artifactId>
-  <name>Web App GAE pure Jetty9, not compat mode</name>
+  <name>Web App GAE pure Jetty9</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -74,8 +74,7 @@
       <plugin>
         <groupId>com.google.appengine</groupId>
         <artifactId>gcloud-maven-plugin</artifactId>
-        <version>2.0.9.85.v20151104-SNAPSHOT</version>
-        
+        <version>2.0.9.85.v20151104</version>
         <configuration>
           <version>purejetty9vmtrue</version>
         </configuration>
